@@ -1,0 +1,40 @@
+.transactionsHistory {
+  width: 900px;
+  margin: 50px 0;
+  border-radius: 5px;
+  border: 1px solid rgba(219, 219, 219, 0.411);
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.thead {
+  background-color: rgb(96, 190, 202);
+  color: white;
+  text-transform: capitalize;
+}
+
+.tType {
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.tAmount {
+  width: 300px;
+  text-align: center;
+}
+
+.tCurrency {
+  width: 300px;
+  text-align: center;
+}
+
+.tableRow {
+  height: 30px;
+  background-color: rgba(207, 204, 204, 0.356);
+}
+
+.tableRow:nth-child(even) {
+    background-color: lightgrey;
+  }
